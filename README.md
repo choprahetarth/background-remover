@@ -1,6 +1,4 @@
 # background-remover
-An AI Based Solution to remove background from your images
-
 This Notebook has been created for removing backgrounds fron images, using primarily two methods
 
 
@@ -8,6 +6,8 @@ This Notebook has been created for removing backgrounds fron images, using prima
 2.   Classical Computer Vision (Experimental)
 
 ## Instructions for Use `Deep Learning` based solution - 
+
+### PLEASE OPEN THE NOTEBOOK IN GOOGLE COLAB
 
 1. Switch to a GPU Runtime offered by Google Colab (Runtime-> Change Runtime Type -> GPU )
 2. Install the libraries by running the `Install (Run Once) (USE GPU RUNTIME)` Tab

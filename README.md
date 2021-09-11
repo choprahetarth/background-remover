@@ -41,6 +41,6 @@ For the Computer Vision Based Solution -
 
 ## Tech Stack Used
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo" width="100" height="100"/> 
-<img src="https://camo.githubusercontent.com/c04e16c05de80dadbdc990884672fc941fdcbbfbb02b31dd48c248d010861426/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67" alt="TF Logo" width="100" height="100"/> 
+<img src="https://camo.githubusercontent.com/c04e16c05de80dadbdc990884672fc941fdcbbfbb02b31dd48c248d010861426/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67" alt="TF Logo" height="100"/> 
 <img src="http://cms.ipressroom.com.s3.amazonaws.com/219/files/20149/NVIDIA_CUDA_V_2C_r.jpg" alt="CUDA Logo" width="100" height="100"/> 
 <img src="https://raw.githubusercontent.com/valohai/ml-logos/master/numpy-simple.svg" alt="Numpy" width="100" height="100"/> 

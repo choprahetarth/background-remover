@@ -5,9 +5,13 @@ This Notebook has been created for removing backgrounds fron images, using prima
 1.   Deep Learning (Facebook's Detectron2 Pre-Trained Models)
 2.   Classical Computer Vision (Experimental)
 
-## Instructions for Use `Deep Learning` based solution - 
+This Notebook has been created for removing backgrounds fron images, using primarily two methods
 
-### PLEASE OPEN THE NOTEBOOK IN GOOGLE COLAB
+
+1.   Deep Learning (Facebook's Detectron2 Pre-Trained Models)
+2.   Classical Computer Vision (Experimental)
+
+## Instructions for using `Deep Learning` based solution - 
 
 1. Switch to a GPU Runtime offered by Google Colab (Runtime-> Change Runtime Type -> GPU )
 2. Install the libraries by running the `Install (Run Once) (USE GPU RUNTIME)` Tab
@@ -19,7 +23,7 @@ This Notebook has been created for removing backgrounds fron images, using prima
 8. Run all the cells within the `Functions` Tab, no need to open.
 9. Expand the Display and run all cells. Enjoy the output.
 
-## Instructions for Use `Classical CV` based solution - 
+## Instructions for using `Classical CV` based solution - 
 1. Restart the Runtime `Ctrl+M` and repeat step 2
 2. Repeat Steps 4 and 5
 3. Expand the `Approach 2 - Classical CV (Experimental)` Tab
@@ -38,6 +42,19 @@ For the Computer Vision Based Solution -
 2. https://docs.opencv.org/master/d4/d13/tutorial_py_filtering.html
 3. https://radiant-brushlands-42789.herokuapp.com/towardsdatascience.com/background-removal-with-python-b61671d1508a
 4. https://pillow.readthedocs.io/en/stable/reference/PixelAccess.html
+
+
+## About the Parameters in Deep Learning Method- 
+1. `YAML` - This contains a plethors of models pre-trained on the `COCO` dataset - https://cocodataset.org/#home
+- To know more about these models and their metrics - https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
+- TLDR - We have included both instance and panoptic segmentation
+
+## About the Parameters in Classical CV Approach- 
+1. `Blur` - This provides the kernel size of the gaussian blur that you want to use in order to *smoothen* out the prediction mask.
+2. `Erode Iter` - This is used as a morphological transformation method, in order to *sharpen* out the mask acquired.
+3. `Dilate Iter` - This is used as a morphological transformation method, in order to *expand* out the mask acquired.
+4. `Min Area` and `Max Area` - As per the edges detected, it is used to specify the minimum area and the maximum area of the them, so as to transform them into contours after filling them.
+
 
 ## Tech Stack Used
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo" height="100"/> <img src="https://camo.githubusercontent.com/c04e16c05de80dadbdc990884672fc941fdcbbfbb02b31dd48c248d010861426/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67" alt="TF Logo" height="100"/> <img src="http://cms.ipressroom.com.s3.amazonaws.com/219/files/20149/NVIDIA_CUDA_V_2C_r.jpg" alt="CUDA Logo" height="100"/> <img src="https://raw.githubusercontent.com/valohai/ml-logos/master/numpy-simple.svg" alt="Numpy" height="100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" alt="OpenCV" height="100"/> 

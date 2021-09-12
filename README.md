@@ -1,15 +1,9 @@
 # background-remover
-This Notebook has been created for removing backgrounds fron images, using primarily two methods
-
-
-1.   Deep Learning (Facebook's Detectron2 Pre-Trained Models)
-2.   Classical Computer Vision (Experimental)
 
 This Notebook has been created for removing backgrounds fron images, using primarily two methods
 
-
 1.   Deep Learning (Facebook's Detectron2 Pre-Trained Models)
-2.   Classical Computer Vision (Experimental)
+2.   Classical Computer Vision (Experimental) (This approach is more of an experimental one, intended to not be the baseline, but as a method to understand more about basics of computer vision)
 
 ## Instructions for using `Deep Learning` based solution - 
 

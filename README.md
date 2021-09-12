@@ -21,6 +21,8 @@ This Notebook has been created for removing backgrounds fron images, using prima
 8. Run all the cells within the `Functions` Tab, no need to open.
 9. Expand the Display and run all cells. Enjoy the output.
 
+NOTE - The first run of every model takes more time than usual, because the notebook downloads each model the first time it is required. The subsequent calls to the model don't require downloading.
+
 ## Instructions for using `Classical CV` based solution - 
 1. Restart the Runtime `Ctrl+M` and repeat step 2
 2. Repeat Steps 4 and 5

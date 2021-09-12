@@ -5,6 +5,10 @@ This Notebook has been created for removing backgrounds fron images, using prima
 1.   Deep Learning (Facebook's Detectron2 Pre-Trained Models)
 2.   Classical Computer Vision (Experimental) (This approach is more of an experimental one, intended to not be the baseline, but as a method to understand more about basics of computer vision)
 
+## PLEASE OPEN THE SOLUTION IN GOOGLE COLAB
+- Preview the `Background_Removal.ipynb` in GitHub 
+- Click `Open In Colab`
+
 ## Instructions for using `Deep Learning` based solution - 
 
 1. Switch to a GPU Runtime offered by Google Colab (Runtime-> Change Runtime Type -> GPU )

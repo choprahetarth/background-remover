@@ -5,14 +5,14 @@
 <form method="post" enctype="multipart/form-data"> 
   <h4> Upload your Foreground Image </h4>
   <input type=file name=foreground>
-  <input type="submit" value=Predict>
+  <input type="submit" value=Upload>
   <br>
   <h4> Upload your Background Image </h4>
   <input type=file name=background>
-  <input type="submit" value=Predict>
+  <input type="submit" value=Upload>
   <br>
   <h4> Program Status : {{stage}} </h4>
-  <input type="submit" name="open" value="Open">
+  <input type="submit" name="open" value="Remove!">
+  <br>
+  <img src="{{ user_image }}" alt="User Image">
 </form>
-
-

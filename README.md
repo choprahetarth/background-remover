@@ -56,6 +56,14 @@ For the Computer Vision Based Solution -
 3. `Dilate Iter` - This is used as a morphological transformation method, in order to *expand* out the mask acquired.
 4. `Min Area` and `Max Area` - As per the edges detected, it is used to specify the minimum area and the maximum area of the them, so as to transform them into contours after filling them.
 
+
+## ```Flask_BG_Remove.ipynb```
+
+This Notebook has been created for removing backgrounds using a Flask Web App, where this notebook acts as a back-end.
+
+METHOD - Detectron2 (Facebook)
+MODEL USED - mask_rcnn_X_101_32x8d_FPN_3x
+
 ## Instructions for using `Flask Deployment` based solution - 
 
 1. Switch to a GPU Runtime offered by Google Colab (Runtime-> Change Runtime Type -> GPU )
@@ -74,6 +82,8 @@ For the Computer Vision Based Solution -
 
 
 ## TO-DO
+- Choice for the user to provide color/background (FIX ERRORS) (FLASK)
+- Clear the output image. (FLASK)
 - A loop of retraining and fine-tuning the model is under-development.
 - A Script to do the detectron task on CPU and use it in real time background replacement, is under-development.
 - A YOLO and a GrabCut based approach is also under-development.

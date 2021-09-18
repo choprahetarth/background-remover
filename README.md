@@ -55,6 +55,17 @@ For the Computer Vision Based Solution -
 3. `Dilate Iter` - This is used as a morphological transformation method, in order to *expand* out the mask acquired.
 4. `Min Area` and `Max Area` - As per the edges detected, it is used to specify the minimum area and the maximum area of the them, so as to transform them into contours after filling them.
 
+## Instructions for using `Flask Deployment` based solution - 
+
+1. Switch to a GPU Runtime offered by Google Colab (Runtime-> Change Runtime Type -> GPU )
+2. Install the libraries by running the `Install (Run Once) (USE GPU RUNTIME)` Tab
+3. Restart the runtime **manually** (it is required, yes.)
+4. Expand the `Import Libraries and Upload Images` Tab
+5. Run the code till the end. 
+6. In the second last cell, you can see something like this 
+`` * Running on http://2b55-35-223-110-102.ngrok.io``, the URL can be different slightly, but open it as this is where the Web App has been deployed.
+7. In order to do more iterations of the images, you have to close the web-app, and stop the running cell, and run the last cell, then proceed to running the webapp again.
+
 
 ## Tech Stack Used
 <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python Logo" height="100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Logo" height="100"/> <img src="http://cms.ipressroom.com.s3.amazonaws.com/219/files/20149/NVIDIA_CUDA_V_2C_r.jpg" alt="CUDA Logo" height="100"/> <img src="https://raw.githubusercontent.com/valohai/ml-logos/master/numpy-simple.svg" alt="Numpy" height="100"/> <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" alt="OpenCV" height="100"/> 
